@@ -13,7 +13,7 @@
    height: 70px;
    background-color: black;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
    z-index: 100;
    position: sticky;
@@ -28,12 +28,14 @@
    justify-content: center;
    align-items: center;
    height: 100%;
+   margin-left: 20px;
 }
 
 .navbar {
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-right: 20px;
 }
 
 .navbar ul {
@@ -56,6 +58,7 @@
 .fa-solid {
    color: white;
    display: none;
+   margin-right: 20px;
    
 }
 
